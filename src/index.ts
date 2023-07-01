@@ -1,4 +1,4 @@
-import { User } from "./User";
+import { Employee } from "./User";
 
-const user = new User();
-console.log(user);
+const employee = new Employee();
+console.log(employee);
