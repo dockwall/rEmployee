@@ -14,4 +14,8 @@ export class Employee {
       lng: faker.location.longitude(),
     };
   }
+
+  getMarkerContent(): string {
+    return `${this.name} (employee)`;
+  }
 }
