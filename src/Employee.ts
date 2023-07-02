@@ -1,6 +1,7 @@
 import { faker } from "@faker-js/faker";
+import type { Mappable } from "./CustomMap";
 
-export class Employee {
+export class Employee implements Mappable {
   name: string;
   location: {
     lat: number;
