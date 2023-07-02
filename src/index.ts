@@ -11,5 +11,5 @@ console.log(employee);
 console.log(company);
 console.log(customMap);
 
-customMap.addEmployeeMarker(employee);
-customMap.addCompanyMarker(company);
+customMap.addMarker(employee);
+customMap.addMarker(company);
